@@ -2513,8 +2513,8 @@ textarea {
   }
 
   .nav-list {
-    padding-left: 40px;
-    margin-right: 10px;
+    padding-left: 60px;
+
     text-align: center;
   }
 
@@ -2549,7 +2549,7 @@ textarea {
     bottom: 20%;
     overflow: visible;
     z-index: 102;
-    padding-bottom: 20px;
+    padding-bottom: 14px;
   }
 
   .app-icon {
