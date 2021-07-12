@@ -2505,7 +2505,7 @@ textarea {
 @media (max-width: 375px) {
   .section-1 {
     background-position: 46%, 50%;
-    height: 700px;
+    height: 670px;
   }
   .navbar {
     width: auto;
@@ -2548,7 +2548,7 @@ textarea {
     bottom: 20%;
     overflow: visible;
     z-index: 102;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .app-icon {
@@ -2613,7 +2613,7 @@ textarea {
   .scroll-arrow {
     font-size: 45px;
     left: 47%;
-    bottom: 60px;
+    bottom: 50px;
   }
 
   .heading-1 {
@@ -2748,7 +2748,7 @@ textarea {
 
   .navigation-auto {
     width: 250px;
-    margin-top: 155px;
+    margin-top: 157.5px;
   }
 
   .manual-btn {
