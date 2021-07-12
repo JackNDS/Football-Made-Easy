@@ -2613,7 +2613,7 @@ textarea {
   .scroll-arrow {
     font-size: 45px;
     left: 47%;
-    bottom: 50px;
+    bottom: 60px;
   }
 
   .heading-1 {
@@ -2748,7 +2748,7 @@ textarea {
 
   .navigation-auto {
     width: 250px;
-    margin-top: 135px;
+    margin-top: 155px;
   }
 
   .manual-btn {
