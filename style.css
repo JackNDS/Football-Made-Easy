@@ -2185,15 +2185,17 @@ textarea {
   }
   .navbar {
     width: auto;
+    top: 25px;
   }
 
   .nav-list {
     padding-left: 50px;
+    text-align: center;
   }
 
   .navbar-link {
-    position: unset;
     margin: 0 5px;
+    font-size: 13px;
   }
 
   .phone,
@@ -2203,15 +2205,26 @@ textarea {
 
   .menu {
     transform: scale(0.7);
+    right: 20px;
   }
+  .change .line-3 {
+    transform: translateY(5.2px) translateX(-10px) rotate(45deg);
+    opacity: 80%;
+  }
+  .change .line-1 {
+    opacity: 80%;
+  }
+
   .social-link {
-    font-size: 27px;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   .social-list {
-    right: 8%;
+    right: 8.5%;
     bottom: 5%;
     overflow: visible;
     z-index: 102;
+    padding-bottom: 20px;
   }
 
   .app-icon {
@@ -2403,7 +2416,7 @@ textarea {
 
   .navigation-auto {
     width: 250px;
-    margin-top: 132.75px;
+    margin-top: 135px;
   }
 
   .manual-btn {
