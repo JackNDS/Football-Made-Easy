@@ -2231,7 +2231,7 @@ textarea {
     top: 19%;
     width: 19%;
     z-index: 300;
-    left: 5.5%;
+    left: 4%;
     margin-left: 50px;
     border-radius: 15px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
@@ -2277,7 +2277,7 @@ textarea {
 
   @keyframes slideIN {
     100% {
-      left: 155.5px;
+      left: 167px;
       visibility: visible;
       opacity: 1;
     }
@@ -2289,7 +2289,7 @@ textarea {
 
   .heading-1 {
     position: relative;
-    left: 39%;
+    left: 42%;
   }
 
   .heading-2 {
@@ -2304,7 +2304,7 @@ textarea {
 
   @keyframes slideIN2 {
     100% {
-      left: 238px;
+      left: 248px;
       visibility: visible;
       opacity: 1;
     }
@@ -2724,6 +2724,7 @@ textarea {
   }
   .section-4-heading {
     font-size: 17px;
+    width: 120%;
   }
   .slider {
     width: 280px;
@@ -2785,7 +2786,7 @@ textarea {
     max-width: 400px;
   }
   .section-6 {
-    padding: 50px 30px;
+    padding: 50px 25px;
   }
 
   .accordionTitle:before {
@@ -2800,6 +2801,7 @@ textarea {
   .accordionTitle2 {
     font-size: 0.8em;
   }
+
   .accordion p {
     margin: 0 -5px;
     text-align: center;
@@ -2807,7 +2809,7 @@ textarea {
   }
 
   .section-7 {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
