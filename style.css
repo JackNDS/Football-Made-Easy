@@ -171,6 +171,7 @@ html {
   background-size: cover;
   position: relative;
   z-index: 10;
+  overflow: hidden;
 }
 
 .banner {
@@ -1473,6 +1474,10 @@ textarea {
     transform: scale(0.85);
   }
 
+  .social-list {
+    right: 5%;
+  }
+
   .menu {
     transform: scale(0.8);
   }
@@ -1674,44 +1679,63 @@ textarea {
 
 @media (max-width: 768px) {
   .navbar {
-    display: flex;
-    flex-direction: column;
+    width: auto;
   }
+
   .nav-list {
+    padding-left: 50px;
+  }
+
+  .navbar-link {
     position: unset;
-    left: unset;
-    display: unset;
-    justify-content: unset;
-    margin-right: 50px;
+    margin: 0 10px;
   }
 
   .phone,
   .screen-1 {
-    transform: scale(0.85);
+    transform: scale(0.8);
   }
 
   .menu {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
   .social-link {
     font-size: 27px;
   }
+  .social-list {
+    right: 8%;
+    bottom: 5%;
+    overflow: visible;
+    z-index: 102;
+  }
 
   .app-icon {
-    top: 30%;
-    width: 12%;
-    left: 14%;
+    top: 65.5%;
+    width: 13%;
+    left: 10%;
+    margin-left: 50px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
   }
 
   .banner {
-    top: 45%;
-    left: 15%;
+    display: flex;
+    flex-direction: column;
+    top: 64%;
+    left: 32.5%;
   }
+  .links {
+    margin-top: 10px;
+    overflow: visible;
+    position: absolute;
+    top: 100%;
+    left: -8%;
+  }
+
   .banner-paragraph {
     font-size: 22px;
     width: 50%;
   }
+
   .banner-heading span {
     font-weight: 500;
     font-size: 35px;
@@ -1725,7 +1749,7 @@ textarea {
     }
   }
   .scroll-arrow {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .heading-3 {
@@ -1739,28 +1763,37 @@ textarea {
       opacity: 1;
     }
   }
+
   .phone-container {
-    left: 58%;
+    height: auto;
+    left: 32%;
+    top: 5%;
+    position: absolute;
+    overflow: visible;
   }
   .app-store {
-    width: 17%;
+    width: 21%;
   }
   .google-play {
-    width: 17%;
+    width: 21%;
   }
   .section-2 {
-    height: 50vh;
+    height: auto;
     padding: 50px 80px;
     align-items: center;
   }
   .section-2-heading {
     font-size: 18px;
     margin-bottom: 30px;
-    width: 120%;
+    width: 150%;
+  }
+  .boxes {
+    flex-wrap: wrap;
   }
   .circle {
-    width: 140px;
-    height: 140px;
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
   }
   .circle i {
     font-size: 80px;
@@ -1775,7 +1808,7 @@ textarea {
     height: 100px;
   }
   .circle-text {
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
   }
   .section-3 {
@@ -1808,7 +1841,7 @@ textarea {
     font-size: 17px;
   }
   .slider {
-    width: 550px;
+    width: 400px;
   }
 
   .left-arrow {
@@ -1820,12 +1853,12 @@ textarea {
   }
 
   .navigation-manual {
-    width: 550px;
+    width: 400px;
   }
 
   .navigation-auto {
-    width: 550px;
-    margin-top: 110px;
+    width: 400px;
+    margin-top: 130px;
   }
 
   .manual-btn {
@@ -1843,14 +1876,14 @@ textarea {
     margin-bottom: 20px;
   }
   .club img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   .heading-primary {
     font-size: 17px;
   }
   .container {
-    max-width: 550px;
+    max-width: 400px;
   }
   .accordionTitle:before {
     font-size: 1.2em;
@@ -1865,6 +1898,7 @@ textarea {
     font-size: 0.9em;
   }
   .accordion p {
+    margin: 0 20px;
     font-size: 0.9em;
   }
   .section-7 {
@@ -1876,16 +1910,271 @@ textarea {
     padding-bottom: 20px;
   }
   .form-container {
-    height: 170px;
+    height: 120px;
   }
   .contact-form {
-    padding: 10px;
+    margin-top: 35px;
   }
   .contact-form:hover {
     transform: translateY(-10px);
   }
   .copyright {
-    padding-top: 90px;
+    padding-top: 130px;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar {
+    width: auto;
+  }
+
+  .nav-list {
+    padding-left: 50px;
+  }
+
+  .navbar-link {
+    position: unset;
+    margin: 0 5px;
+  }
+
+  .phone,
+  .screen-1 {
+    transform: scale(0.7);
+  }
+
+  .menu {
+    transform: scale(0.7);
+  }
+  .social-link {
+    font-size: 27px;
+  }
+  .social-list {
+    right: 8%;
+    bottom: 5%;
+    overflow: visible;
+    z-index: 102;
+  }
+
+  .app-icon {
+    top: 67%;
+    width: 16%;
+    left: 0%;
+    margin-left: 50px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    top: 62%;
+    left: 28.5%;
+  }
+  .links {
+    margin-top: 10px;
+    overflow: visible;
+    position: absolute;
+    top: 100%;
+    left: -7%;
+  }
+
+  .banner-paragraph {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .banner-heading span {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  @keyframes slideIN {
+    100% {
+      left: 120px;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .scroll-arrow {
+    font-size: 30px;
+  }
+
+  .heading-3 {
+    left: 190px;
+  }
+
+  @keyframes slideIN2 {
+    100% {
+      left: 208px;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .phone-container {
+    height: auto;
+    left: 24%;
+    top: 8j%;
+    position: absolute;
+    overflow: visible;
+  }
+  .app-store {
+    width: 25%;
+  }
+  .google-play {
+    width: 25%;
+  }
+  .section-2 {
+    height: auto;
+    padding: 50px 40px;
+    align-items: center;
+  }
+  .section-2-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 160%;
+  }
+  .boxes {
+    flex-wrap: wrap;
+  }
+  .circle {
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+  }
+  .circle i {
+    font-size: 80px;
+    color: #fff;
+  }
+
+  .circle-img-2 {
+    height: 90px;
+  }
+
+  .circle-img-3 {
+    height: 100px;
+  }
+  .circle-text {
+    font-size: 18px;
+    width: 100%;
+  }
+  .section-3 {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+  }
+
+  .video {
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+  .section-3-heading {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .profile a {
+    width: 170px;
+    height: 170px;
+    margin: 20px 0;
+  }
+  .profile:hover {
+    transform: scale(1.1);
+  }
+  .section-4 {
+    height: 50vh;
+  }
+  .section-4-heading {
+    font-size: 17px;
+  }
+  .slider {
+    width: 300px;
+  }
+
+  .left-arrow {
+    left: 12%;
+  }
+
+  .right-arrow {
+    right: 12%;
+  }
+
+  .navigation-manual {
+    width: 300px;
+  }
+
+  .navigation-auto {
+    width: 300px;
+    margin-top: 150px;
+  }
+
+  .manual-btn {
+    padding: 4px;
+  }
+  .navigation-auto div {
+    padding: 4px;
+  }
+
+  .section-5 {
+    padding: 30px 40px;
+  }
+  .section-5-heading {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  .club-container {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .club img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .club {
+    padding: 20px 20px;
+  }
+  .heading-primary {
+    font-size: 17px;
+  }
+  .container {
+    max-width: 400px;
+  }
+  .accordionTitle:before {
+    font-size: 1.2em;
+  }
+  .accordionTitle2:before {
+    font-size: 1.2em;
+  }
+  .accordionTitle {
+    font-size: 0.9em;
+  }
+  .accordionTitle2 {
+    font-size: 0.9em;
+  }
+  .accordion p {
+    margin: 0 20px;
+    font-size: 0.9em;
+  }
+  .section-7 {
+    height: 60vh;
+    padding: 30px 50px;
+  }
+  .section-7-heading {
+    font-size: 17px;
+    padding-bottom: 20px;
+  }
+  .form-container {
+    height: 100px;
+  }
+  .contact-form {
+    margin-top: 55px;
+  }
+  .contact-form:hover {
+    transform: translateY(-10px);
+  }
+  .copyright {
+    padding-top: 160px;
   }
 }
 
