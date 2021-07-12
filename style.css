@@ -2513,7 +2513,8 @@ textarea {
   }
 
   .nav-list {
-    padding-left: 50px;
+    padding-left: 40px;
+    margin-right: 10px;
     text-align: center;
   }
 
