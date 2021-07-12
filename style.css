@@ -2548,7 +2548,7 @@ textarea {
     bottom: 20%;
     overflow: visible;
     z-index: 102;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   .app-icon {
@@ -2726,7 +2726,7 @@ textarea {
     font-size: 17px;
   }
   .slider {
-    width: 250px;
+    width: 280px;
   }
   .slide {
     font-size: 14px;
@@ -2734,20 +2734,20 @@ textarea {
 
   .left-arrow {
     margin-top: 20px;
-    left: 11%;
+    left: 6%;
   }
 
   .right-arrow {
     margin-top: 20px;
-    right: 11%;
+    right: 6%;
   }
 
   .navigation-manual {
-    width: 250px;
+    width: 280px;
   }
 
   .navigation-auto {
-    width: 250px;
+    width: 280px;
     margin-top: 157.5px;
   }
 
@@ -2760,6 +2760,7 @@ textarea {
 
   .section-5 {
     padding: 30px 40px;
+    padding-bottom: 0px;
   }
   .section-5-heading {
     margin-top: 10px;
@@ -2770,8 +2771,8 @@ textarea {
     justify-content: center;
   }
   .club img {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
   }
 
   .club {
@@ -2784,7 +2785,7 @@ textarea {
     max-width: 400px;
   }
   .section-6 {
-    padding: 50px 50px;
+    padding: 50px 30px;
   }
 
   .accordionTitle:before {
@@ -2794,10 +2795,10 @@ textarea {
     font-size: 1.2em;
   }
   .accordionTitle {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .accordionTitle2 {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .accordion p {
     margin: 0 -5px;
@@ -2810,7 +2811,7 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px 50px;
+    padding: 30px 30px;
   }
   .section-7-heading {
     font-size: 17px;
@@ -2827,6 +2828,10 @@ textarea {
   }
   .contact-form textarea {
     min-height: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  .contact-form input {
+    border-bottom: 1px solid #eee;
   }
   .copyright {
     padding: 0;
