@@ -2549,11 +2549,11 @@ textarea {
     bottom: 20%;
     overflow: visible;
     z-index: 102;
-    padding-bottom: 14px;
+    padding-bottom: 8px;
   }
 
   .app-icon {
-    top: 18%;
+    top: 18.25%;
     width: 21%;
     z-index: 300;
     left: 3%;
