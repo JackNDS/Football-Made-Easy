@@ -2540,8 +2540,8 @@ textarea {
   }
 
   .social-link {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
   }
   .social-list {
     right: 8.5%;
@@ -2559,6 +2559,10 @@ textarea {
     margin-left: 50px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .app-icon:hover {
+    transform: translateY(-5px);
   }
 
   .banner {
@@ -2607,9 +2611,9 @@ textarea {
     }
   }
   .scroll-arrow {
-    font-size: 40px;
+    font-size: 45px;
     left: 47%;
-    bottom: 30px;
+    bottom: 50px;
   }
 
   .heading-1 {
