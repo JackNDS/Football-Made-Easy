@@ -2852,7 +2852,7 @@ textarea {
 
 @media (max-width: 320px) {
   .app-icon {
-    top: 18.25%;
+    top: 20.25%;
     width: 21%;
     z-index: 300;
     left: -2%;
@@ -2885,8 +2885,10 @@ textarea {
     left: 30%;
     z-index: 200;
   }
-  .scroll-arrow {
-    bottom: 20px;
+
+  #hd-1 {
+    font-size: 36px;
+    font-weight: 600;
   }
 }
 
