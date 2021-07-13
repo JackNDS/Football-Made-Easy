@@ -2850,6 +2850,20 @@ textarea {
   }
 }
 
+@media (max-width: 360px) {
+  .banner {
+    top: 9%;
+  }
+  .scroll-arrow {
+    font-size: 45px;
+    left: 45%;
+    bottom: 50px;
+  }
+  .links {
+    left: 30%;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .accordionItem {
     max-height: 15em;
