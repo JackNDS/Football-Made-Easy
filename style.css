@@ -2853,12 +2853,12 @@ textarea {
 @media (max-width: 320px) {
   .app-icon {
     top: 20.25%;
-    width: 21%;
+    width: 23%;
     z-index: 300;
     left: -2%;
     margin-left: 50px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 14px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
   }
   .section-1 {
     height: 100vh;
@@ -2880,7 +2880,7 @@ textarea {
   .links {
     overflow: visible;
     position: absolute;
-    top: 270%;
+    top: 280%;
     flex-direction: column;
     left: 30%;
     z-index: 200;
@@ -2889,6 +2889,40 @@ textarea {
   #hd-1 {
     font-size: 36px;
     font-weight: 600;
+  }
+  .section-4 {
+    height: 65vh;
+  }
+  .section-4-heading {
+    font-size: 17px;
+    width: 160%;
+    margin-bottom: 40px;
+    margin-top: -60px;
+  }
+  .slider {
+    width: 240px;
+  }
+  .slide {
+    font-size: 14px;
+  }
+
+  .left-arrow {
+    margin-top: 20px;
+    left: 6%;
+  }
+
+  .right-arrow {
+    margin-top: 20px;
+    right: 6%;
+  }
+
+  .navigation-manual {
+    width: 240px;
+  }
+
+  .navigation-auto {
+    width: 240px;
+    margin-top: 140px;
   }
 }
 
