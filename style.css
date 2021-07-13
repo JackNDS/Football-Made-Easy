@@ -2850,7 +2850,7 @@ textarea {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
   .banner {
     top: 9%;
   }
@@ -2860,7 +2860,7 @@ textarea {
     bottom: 50px;
   }
   .links {
-    left: 30%;
+    left: 20%;
   }
 }
 
