@@ -2586,7 +2586,7 @@ textarea {
     position: absolute;
     top: 240%;
     flex-direction: column;
-    left: 32%;
+    left: 30%;
     z-index: 200;
   }
 
@@ -2621,7 +2621,7 @@ textarea {
   }
   .scroll-arrow {
     font-size: 45px;
-    left: 47%;
+    left: 45%;
     bottom: 50px;
   }
 
@@ -2847,20 +2847,6 @@ textarea {
   .copyright {
     padding: 0;
     font-size: 12px;
-  }
-}
-
-@media (max-width: 370px) {
-  .banner {
-    top: 9%;
-  }
-  .scroll-arrow {
-    font-size: 45px;
-    left: 45%;
-    bottom: 50px;
-  }
-  .links {
-    left: 30%;
   }
 }
 
