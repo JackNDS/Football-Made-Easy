@@ -2850,6 +2850,46 @@ textarea {
   }
 }
 
+@media (max-width: 320px) {
+  .app-icon {
+    top: 18.25%;
+    width: 21%;
+    z-index: 300;
+    left: -2%;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  }
+  .section-1 {
+    height: 100vh;
+  }
+  @keyframes slideIN2 {
+    100% {
+      left: 207px;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @keyframes slideIN {
+    100% {
+      left: 125.5px;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .links {
+    overflow: visible;
+    position: absolute;
+    top: 270%;
+    flex-direction: column;
+    left: 30%;
+    z-index: 200;
+  }
+  .scroll-arrow {
+    bottom: 20px;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .accordionItem {
     max-height: 15em;
