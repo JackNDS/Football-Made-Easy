@@ -2922,7 +2922,14 @@ textarea {
 
   .navigation-auto {
     width: 240px;
-    margin-top: 140px;
+    margin-top: 160px;
+  }
+  .section-5 {
+    padding: 30px 20px;
+    padding-bottom: 0px;
+  }
+  .section-7 {
+    height: 85vh;
   }
 }
 
