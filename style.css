@@ -2577,7 +2577,7 @@ textarea {
   .banner {
     display: flex;
     flex-direction: column;
-    top: 12.5%;
+    top: 9%;
     left: 0;
     overflow: visible;
   }
@@ -2860,7 +2860,7 @@ textarea {
     bottom: 50px;
   }
   .links {
-    left: 20%;
+    left: 30%;
   }
 }
 
