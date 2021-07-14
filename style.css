@@ -916,7 +916,7 @@ button {
 /* Section-7 */
 .section-7 {
   width: 100%;
-  height: 75vh;
+  height: 95vh;
   padding: 50px 100px;
   display: flex;
   overflow: visible;
@@ -942,8 +942,8 @@ button {
   justify-content: space-evenly;
   border-radius: 5px;
   overflow: visible;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contact-form {
@@ -994,12 +994,66 @@ textarea {
   background-color: #2bd0e6;
 }
 
+.footer-list {
+  width: 450px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 35px;
+  transition: transform 0.5s;
+}
+
+.footer-link:hover {
+  transform: scale(1.2);
+}
+
+.container2 {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links {
+  overflow: visible;
+  text-align: center;
+}
+
+.app-store-footer {
+  width: 40%;
+  transition: transform 0.5s;
+  overflow: visible;
+  margin: 0 15px;
+}
+
+.google-play-footer {
+  width: 40%;
+  transition: transform 0.5s;
+  overflow: visible;
+  margin: 0 15px;
+}
+
+.app-store-footer:hover {
+  transform: scale(1.15);
+}
+
+.google-play-footer:hover {
+  transform: scale(1.15);
+}
+
 .copyright {
   font-size: 15px;
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.528);
-  padding-top: 50px;
   z-index: 101;
+  margin-top: 30px;
   overflow: visible;
 }
 
@@ -1242,23 +1296,22 @@ textarea {
     font-size: 0.9em;
   }
   .section-7 {
-    height: 65vh;
+    height: 85vh;
     padding: 30px 100px;
   }
   .section-7-heading {
     font-size: 17px;
+    margin-bottom: 50px;
   }
   .form-container {
     height: 200px;
+    margin-bottom: 80px;
   }
   .contact-form {
     padding: 10px;
   }
   .contact-form:hover {
     transform: translateY(-10px);
-  }
-  .copyright {
-    padding-top: 70px;
   }
 }
 
@@ -1440,7 +1493,7 @@ textarea {
     font-size: 0.9em;
   }
   .section-7 {
-    height: 60vh;
+    height: 85vh;
     padding: 30px 100px;
   }
   .section-7-heading {
@@ -1449,14 +1502,8 @@ textarea {
   .form-container {
     height: 200px;
   }
-  .contact-form {
-    padding: 10px;
-  }
   .contact-form:hover {
     transform: translateY(-10px);
-  }
-  .copyright {
-    padding-top: 80px;
   }
 }
 
@@ -1663,7 +1710,7 @@ textarea {
   }
 
   .section-7 {
-    height: 60vh;
+    height: 85vh;
     padding: 30px 100px;
   }
   .section-7-heading {
@@ -1673,14 +1720,8 @@ textarea {
   .form-container {
     height: 170px;
   }
-  .contact-form {
-    padding: 10px;
-  }
   .contact-form:hover {
     transform: translateY(-10px);
-  }
-  .copyright {
-    padding-top: 90px;
   }
 }
 
@@ -1911,24 +1952,30 @@ textarea {
     font-size: 0.9em;
   }
   .section-7 {
-    height: 60vh;
+    height: 80vh;
     padding: 30px 100px;
   }
   .section-7-heading {
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
+
   .form-container {
     height: 120px;
   }
-  .contact-form {
-    margin-top: 35px;
+  .footer-list {
+    margin-top: 30px;
   }
+  .app-store-footer {
+    width: 35%;
+  }
+
+  .google-play-footer {
+    width: 35%;
+  }
+
   .contact-form:hover {
     transform: translateY(-10px);
-  }
-  .copyright {
-    padding-top: 130px;
   }
 }
 
@@ -2166,24 +2213,29 @@ textarea {
     font-size: 0.9em;
   }
   .section-7 {
-    height: 60vh;
+    height: 85vh;
     padding: 30px 50px;
   }
   .section-7-heading {
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
   .form-container {
     height: 100px;
   }
-  .contact-form {
-    margin-top: 55px;
+
+  .app-store-footer {
+    width: 27%;
+  }
+
+  .footer-link {
+    font-size: 25px;
+  }
+  .google-play-footer {
+    width: 27%;
   }
   .contact-form:hover {
     transform: translateY(-10px);
-  }
-  .copyright {
-    padding-top: 160px;
   }
 }
 
@@ -2482,7 +2534,7 @@ textarea {
   }
 
   .section-7 {
-    height: 70vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2495,8 +2547,8 @@ textarea {
   .form-container {
     height: 100px;
   }
-  .contact-form {
-    margin-bottom: 160px;
+  .footer-list {
+    width: 80%;
   }
   .contact-form:hover {
     transform: translateY(-10px);
@@ -2507,6 +2559,13 @@ textarea {
   .copyright {
     padding: 0;
     font-size: 12px;
+  }
+  .app-store-footer {
+    width: 23%;
+  }
+
+  .google-play-footer {
+    width: 23%;
   }
 }
 
@@ -2818,7 +2877,7 @@ textarea {
   }
 
   .section-7 {
-    height: 60vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2826,14 +2885,21 @@ textarea {
   }
   .section-7-heading {
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   .form-container {
     height: 100px;
+    padding: 0;
+    margin: 0;
   }
-  .contact-form {
-    margin-bottom: 160px;
+  .footer-list {
+    height: 60px;
   }
+
+  .container2 {
+    margin-top: -80px;
+  }
+
   .contact-form:hover {
     transform: translateY(-10px);
   }
@@ -2847,6 +2913,7 @@ textarea {
   .copyright {
     padding: 0;
     font-size: 12px;
+    margin-top: -60px;
   }
 }
 
@@ -2929,7 +2996,11 @@ textarea {
     padding-bottom: 0px;
   }
   .section-7 {
-    height: 85vh;
+    height: 90vh;
+  }
+
+  .footer-links {
+    margin: 0 40px;
   }
 }
 
