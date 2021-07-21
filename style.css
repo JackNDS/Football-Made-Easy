@@ -425,6 +425,22 @@ html {
   width: 200px;
 }
 
+.circle-3 {
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.box-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  width: 200px;
+}
+
 .circle {
   align-items: center;
   justify-content: center;
