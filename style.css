@@ -490,7 +490,7 @@ button {
 /* End of Section 2 */
 
 /* Section 3 */
-.section-3 {
+.section-3A {
   width: 100%;
   height: 65vh;
   padding: 50px 140px;
@@ -498,7 +498,20 @@ button {
   display: flex;
   overflow: hidden;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
+}
+
+.section-3B {
+  width: 100%;
+  height: 65vh;
+  padding: 50px 140px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #4494ca, rgb(35, 70, 187));
 }
 
 .section-3-text {
@@ -560,17 +573,17 @@ button {
 /* Section 4 */
 .section-4 {
   width: 100%;
-  height: 60vh;
-  padding: 50px 100px;
+  height: 100%;
+  padding: 50px 180px;
   display: flex;
   overflow: hidden;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to bottom, #4494ca, rgb(35, 70, 187));
+  background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
 }
 
-.section-4-heading {
+.section-5-heading {
   color: #fff;
   text-align: center;
   font-size: 20px;
@@ -719,7 +732,7 @@ button {
 
 .section-5 {
   width: 100%;
-  height: 100%;
+  height: 60vh;
   padding: 50px 140px;
   position: relative;
   display: flex;
@@ -728,10 +741,10 @@ button {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
+  background: linear-gradient(to bottom, #4494ca, rgb(35, 70, 187));
 }
 
-.section-5-heading {
+.section-4-heading {
   margin-top: 10px;
   color: #fff;
   font-size: 20px;
@@ -772,7 +785,7 @@ button {
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  background: linear-gradient(to bottom, #4494ca, rgb(35, 70, 187));
+  background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
 }
 
 .heading-primary {
@@ -938,7 +951,7 @@ button {
   overflow: visible;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
+  background: linear-gradient(to bottom, #4494ca, rgb(35, 70, 187));
 }
 
 .section-7-heading {
@@ -1142,14 +1155,15 @@ textarea {
   .circle-text {
     font-size: 17px;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: 55vh;
     padding: 50px 120px;
   }
   .section-3-heading {
     font-size: 18px;
   }
-  .section-4 {
+  .section-5 {
     height: 55vh;
   }
   .left-arrow {
@@ -1159,7 +1173,7 @@ textarea {
     right: 16%;
   }
 
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
   }
   .club-container {
@@ -1249,7 +1263,8 @@ textarea {
   .circle-text {
     font-size: 15px;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: 50vh;
     padding: 50px 100px;
   }
@@ -1260,10 +1275,10 @@ textarea {
     width: 150px;
     height: 150px;
   }
-  .section-4 {
+  .section-5 {
     height: 50vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .left-arrow {
@@ -1279,7 +1294,7 @@ textarea {
     padding: 4px;
   }
 
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -1419,7 +1434,8 @@ textarea {
     font-size: 15px;
     width: 100%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 100px;
@@ -1442,10 +1458,10 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 50vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .slider {
@@ -1476,7 +1492,7 @@ textarea {
     padding: 4px;
   }
 
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -1635,7 +1651,8 @@ textarea {
     font-size: 15px;
     width: 100%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 100px;
@@ -1658,10 +1675,10 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 50vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .slider {
@@ -1710,7 +1727,7 @@ textarea {
     font-size: 0.9em;
   }
 
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -1877,7 +1894,8 @@ textarea {
     font-size: 18px;
     width: 100%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 100px;
@@ -1900,10 +1918,10 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 50vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .slider {
@@ -1934,7 +1952,7 @@ textarea {
     padding: 4px;
   }
 
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -2129,7 +2147,8 @@ textarea {
     font-size: 18px;
     width: 100%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 40px;
@@ -2153,10 +2172,10 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 50vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .slider {
@@ -2187,10 +2206,10 @@ textarea {
     padding: 4px;
   }
 
-  .section-5 {
+  .section-4 {
     padding: 30px 40px;
   }
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -2438,7 +2457,8 @@ textarea {
     font-size: 17px;
     width: 140%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 40px;
@@ -2462,11 +2482,11 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 55vh;
     position: relative;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
   }
   .slider {
@@ -2502,10 +2522,10 @@ textarea {
     padding: 4px;
   }
 
-  .section-5 {
+  .section-4 {
     padding: 30px 40px;
   }
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -2775,7 +2795,8 @@ textarea {
     font-size: 17px;
     width: 140%;
   }
-  .section-3 {
+  .section-3A,
+  .section-3B {
     height: auto;
     flex-wrap: wrap;
     padding: 50px 40px;
@@ -2802,11 +2823,11 @@ textarea {
   .profile:hover {
     transform: scale(1.1);
   }
-  .section-4 {
+  .section-5 {
     height: 55vh;
     position: relative;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
     width: 120%;
   }
@@ -2843,11 +2864,11 @@ textarea {
     padding: 4px;
   }
 
-  .section-5 {
+  .section-4 {
     padding: 30px 40px;
     padding-bottom: 0px;
   }
-  .section-5-heading {
+  .section-4-heading {
     margin-top: 10px;
     font-size: 17px;
   }
@@ -2973,10 +2994,10 @@ textarea {
     font-size: 36px;
     font-weight: 600;
   }
-  .section-4 {
+  .section-5 {
     height: 65vh;
   }
-  .section-4-heading {
+  .section-5-heading {
     font-size: 17px;
     width: 160%;
     margin-bottom: 40px;
@@ -3007,7 +3028,7 @@ textarea {
     width: 240px;
     margin-top: 157.5px;
   }
-  .section-5 {
+  .section-4 {
     padding: 30px 20px;
     padding-bottom: 0px;
   }
