@@ -1121,6 +1121,47 @@ textarea {
   margin-bottom: 20px;
 }
 
+/* Whats the Difference Page */
+
+.difference-section {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  overflow: visible;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
+}
+
+.image-container {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.difference-img1 {
+  width: auto;
+  margin-right: 200px;
+}
+.difference-img2 {
+  width: auto;
+
+  margin-right: 20px;
+}
+.difference-img3 {
+  width: auto;
+}
+
+.difference-text {
+  color: #fff;
+  max-width: 850px;
+  text-align: center;
+  overflow: visible;
+  margin-bottom: 20px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1300px) {
@@ -1572,6 +1613,10 @@ textarea {
   .contact-form:hover {
     transform: translateY(-10px);
   }
+  .image-container {
+    width: 110%;
+    padding: 50px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1799,6 +1844,13 @@ textarea {
   }
   .contact-form:hover {
     transform: translateY(-10px);
+  }
+  .image-container {
+    width: 100%;
+    padding: 0px;
+  }
+  .difference-img1 {
+    margin-right: 70px;
   }
 }
 
@@ -2058,6 +2110,13 @@ textarea {
 
   .contact-form:hover {
     transform: translateY(-10px);
+  }
+  .image-container {
+    width: 120%;
+    padding: 0px;
+  }
+  .difference-img1 {
+    margin-right: 30px;
   }
 }
 
@@ -2322,6 +2381,13 @@ textarea {
   }
   .contact-form:hover {
     transform: translateY(-10px);
+  }
+  .image-container {
+    width: 160%;
+    padding: 0 40px;
+  }
+  .difference-img1 {
+    margin-right: 30px;
   }
 }
 
@@ -2660,6 +2726,32 @@ textarea {
 
   .google-play-footer {
     width: 23%;
+  }
+
+  .difference-section {
+    height: auto;
+    padding: 40px;
+  }
+
+  .difference-text {
+    max-width: 350px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .image-container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .difference-img1 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .difference-img2 {
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
 }
 
