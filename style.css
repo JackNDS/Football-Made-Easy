@@ -2743,15 +2743,23 @@ textarea {
     height: auto;
     padding: 10px;
     flex-direction: column;
+    align-items: start;
     margin-bottom: 50px;
+    user-select: none;
+    scroll-behavior: smooth;
   }
   .difference-img1 {
     margin-right: 0px;
     margin-bottom: 20px;
+    width: 100%;
   }
   .difference-img2 {
     margin-right: 0px;
     margin-bottom: 20px;
+    width: 100%;
+  }
+  .difference-img3 {
+    width: 100%;
   }
 }
 
