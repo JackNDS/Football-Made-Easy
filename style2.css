@@ -2728,6 +2728,10 @@ textarea {
     width: 23%;
   }
 
+  * {
+    overflow-x: unset;
+  }
+
   .difference-section {
     height: auto;
     padding: 40px;
