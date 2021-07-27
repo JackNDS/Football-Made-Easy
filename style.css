@@ -2731,6 +2731,9 @@ textarea {
   .difference-section {
     height: auto;
     padding: 40px;
+    scroll-snap-stop: none;
+    -webkit-transform: translateZ(0);
+    overflow: visible;
   }
 
   .difference-text {
@@ -2745,7 +2748,6 @@ textarea {
     flex-direction: column;
     align-items: start;
     margin-bottom: 50px;
-    user-select: none;
     scroll-behavior: smooth;
   }
   .difference-img1 {
