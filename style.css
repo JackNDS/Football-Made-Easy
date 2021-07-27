@@ -2983,10 +2983,11 @@ textarea {
     flex-direction: column;
     justify-content: space-between;
     padding: 30px 30px;
+    height: 85vh;
   }
 
   .support-header {
-    margin-bottom: -60px;
+    margin-bottom: -100px;
   }
 
   .support-text {
