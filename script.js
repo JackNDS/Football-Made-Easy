@@ -130,24 +130,3 @@ function copyFunction2() {
   document.execCommand('copy');
   alert('Copied the text: ' + copyText.value);
 }
-
-document.getElementById('button1').addEventListener('click', loadUser);
-
-function loadUser() {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'user.json', true);
-
-  xhr.onload = function() {
-    if (this.status == 200) {
-      var user = JSON.parse(this.responseText);
-
-      var output = '';
-      for (var i in user) {
-        output = user[0].name;
-        document.getElementById('myInput2').innerHTML = output;
-        console.log(user[0].name);
-      }
-    }
-  };
-  xhr.send();
-}
