@@ -1233,7 +1233,7 @@ textarea {
 
 /* Club Page */
 .club-section {
-  height: auto;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
