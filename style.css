@@ -1042,6 +1042,16 @@ textarea {
   transform: scale(1.2);
 }
 
+.club-footer-link {
+  color: #fff;
+  font-size: 35px;
+  transition: transform 0.5s;
+}
+
+.club-footer-link:hover {
+  transform: scale(1.2);
+}
+
 .container2 {
   width: 450px;
   display: flex;
@@ -1050,6 +1060,15 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
+.club-footer {
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .footer-links {
   overflow: visible;
   text-align: center;
@@ -1084,6 +1103,23 @@ textarea {
   z-index: 101;
   margin-top: 30px;
   overflow: visible;
+}
+
+.club-copyright {
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.528);
+  z-index: 101;
+  margin-top: 30px;
+  overflow: visible;
+}
+
+.club-app-store-footer {
+  width: 250px;
+}
+
+.club-google-play-footer {
+  width: 250px;
 }
 
 .hidden {
@@ -1233,28 +1269,55 @@ textarea {
 
 /* Club Page */
 .club-section {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 20px 50px;
   align-items: center;
+  overflow: visible;
   background: linear-gradient(to bottom, #1d2728, rgb(67, 67, 67));
 }
 
 .club-header {
   margin-top: 30px;
   color: #fff;
-  font-size: 20px;
+  font-size: 35px;
+  width: 550px;
+  text-align: center;
   overflow: visible;
 }
 
+.club-header2 {
+  margin-top: 30px;
+  color: rgb(244, 240, 14);
+  font-size: 28px;
+  width: 550px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  overflow: visible;
+  margin-bottom: 40px;
+}
+
+.sponsor {
+  width: 550px;
+  height: 100px;
+  background-color: #fff;
+  overflow: visible;
+}
+
+.sponsor img {
+  width: 100%;
+  height: auto;
+}
+
 .promo-codes {
-  padding: 80px 0px;
+  padding: 0px 0px 40px 0px;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .club-google {
@@ -1263,17 +1326,20 @@ textarea {
   flex-direction: column;
   align-items: center;
   overflow-x: visible;
-  margin-right: 120px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .club-google i {
   font-size: 25px;
 }
 
+.club-google img {
+  margin-bottom: 20px;
+}
+
 .code-google {
   display: flex;
-  margin-top: 120px;
+  margin-top: 20px;
 }
 
 .code-google input {
@@ -1340,17 +1406,21 @@ textarea {
 }
 
 .club-apple {
-  margin-left: 120px;
   color: #fff;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-x: visible;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .club-apple i {
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.club-apple img {
+  margin-bottom: 20px;
 }
 
 .club-apple button {
@@ -1379,17 +1449,38 @@ textarea {
 }
 
 .club-logo {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  top: 140px;
+  overflow: visible;
+}
+
+.club-logo img {
+  height: 250px;
+  width: auto;
 }
 
 .club-base {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.homepage {
+  margin: 30px;
+  border-bottom: #4494ca 3px solid;
+  transition: transform 0.5s;
+}
+
+.homepage:hover {
+  transform: scale(1.1);
+}
+
+.homepage a {
+  color: rgb(169, 245, 250);
+  font-size: 30px;
+  transition: color 0.5s;
+}
+
+.homepage a:hover {
+  color: #e7f999;
 }
 
 /* Media Queries */
@@ -2624,6 +2715,72 @@ textarea {
   }
   .club-google {
     margin-bottom: 40px;
+  }
+
+  .club-logo {
+    display: flex;
+  }
+
+  .club-logo img {
+    height: 150px;
+    width: auto;
+  }
+
+  .club-base {
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .club-section {
+    padding: 20px;
+    margin: 0;
+  }
+  .club-header {
+    font-size: 24px;
+    width: 300px;
+  }
+  .club-header2 {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .sponsor {
+    width: 300px;
+    height: 50px;
+  }
+
+  .club-google img {
+    height: 60px !important;
+    width: 60px !important;
+  }
+
+  .club-google {
+    font-size: 28px;
+  }
+
+  .club-apple img {
+    height: 60px !important;
+    width: 60px !important;
+  }
+
+  .club-apple {
+    font-size: 28px;
+    margin-top: 0;
+  }
+
+  .homepage a {
+    font-size: 25px;
+  }
+
+  .club-app-store-footer {
+    width: 140px;
+    margin: 5px;
+  }
+  .club-google-play-footer {
+    width: 140px;
+    margin: 5px;
   }
 }
 

@@ -6,6 +6,15 @@ const sectionHeading = document.querySelector('.section-2-heading');
 const box1 = document.querySelector('.box-1');
 const box2 = document.querySelector('.box-2');
 const box3 = document.querySelector('.box-3');
+const generateButton = document.querySelector('.generate-button');
+const codeBox = document.getElementById('myInput2');
+
+generateButton.addEventListener('click', () => {
+  const codeUrl = 'http://localhost:5000/_get_code'; //replace with actual code url
+  fetch(codeUrl)
+    .then(response => response.json())
+    .then(data => (codeBox.value = data.result));
+});
 
 menu.addEventListener('click', () => {
   navbar.classList.toggle('change');
