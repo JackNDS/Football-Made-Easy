@@ -6,18 +6,6 @@ const sectionHeading = document.querySelector('.section-2-heading');
 const box1 = document.querySelector('.box-1');
 const box2 = document.querySelector('.box-2');
 const box3 = document.querySelector('.box-3');
-const generateButton = document.querySelector(".generate-button");
-const codeBox = document.getElementById("myInput2");
-
-generateButton.addEventListener("click", () => {
-   const codeUrl =
-    "https://www4.sidelinesports.com/xpsweb/secretlist/?action=pop";
-  fetch(codeUrl, { method: "GET", cache: "no-store" }).then((response) => {
-    response.text().then((data) => {
-      codeBox.value = data;
-    });
-  });
-});
 
 menu.addEventListener('click', () => {
   navbar.classList.toggle('change');
