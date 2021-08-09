@@ -3520,6 +3520,19 @@ textarea {
     font-size: 12px;
     margin-top: -60px;
   }
+  .code-google input {
+    width: 240px;
+  }
+  .code-apple input {
+    width: 240px;
+    font-size: 16px;
+  }
+  .code-apple button {
+    padding: 8px 16px;
+  }
+  .code-google button {
+    padding: 8px 16px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -3612,6 +3625,19 @@ textarea {
 
   .footer-links {
     margin: 0 40px;
+  }
+  .code-google input {
+    width: 200px;
+  }
+  .code-apple input {
+    width: 200px;
+    font-size: 16px;
+  }
+  .code-apple button {
+    padding: 8px 16px;
+  }
+  .code-google button {
+    padding: 8px 16px;
   }
 }
 
