@@ -89,5 +89,23 @@
     </section>
     <!-- End of Section 7 -->
     <script src="script.js"></script>
+    <script>
+      const generateButton = document.querySelector(".generate-button");
+      const codeBox = document.getElementById("myInput2");
+
+      generateButton.addEventListener("click", () => {
+        const clubName = "tester"; //Change this value for each club page
+        const codeUrl =
+          "https://www4.sidelinesports.com/xpsweb/secretlist/?action=pop&category=" +
+          clubName;
+        fetch(codeUrl, { method: "GET", cache: "no-store" }).then(
+          (response) => {
+            response.text().then((data) => {
+              codeBox.value = data;
+            });
+          }
+        );
+      });
+    </script>
   </body>
 </html>
