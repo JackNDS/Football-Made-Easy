@@ -10,9 +10,9 @@ const generateButton = document.querySelector(".generate-button");
 const codeBox = document.getElementById("myInput2");
 
 generateButton.addEventListener("click", () => {
-  const codeUrl =
+   const codeUrl =
     "https://www4.sidelinesports.com/xpsweb/secretlist/?action=pop";
-  fetch(codeUrl, { method: "GET" }).then((response) => {
+  fetch(codeUrl, { method: "GET", cache: "no-store" }).then((response) => {
     response.text().then((data) => {
       codeBox.value = data;
     });
