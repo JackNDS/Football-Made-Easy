@@ -10,10 +10,13 @@ const generateButton = document.querySelector('.generate-button');
 const codeBox = document.getElementById('myInput2');
 
 generateButton.addEventListener('click', () => {
-  const codeUrl = 'http://localhost:5000/_get_code'; //replace with actual code url
-  fetch(codeUrl)
-    .then(response => response.json())
-    .then(data => (codeBox.value = data.result));
+  const codeUrl =
+    'https://www4.sidelinesports.com/xpsweb/secretlist/?action=pop';
+  fetch(codeUrl, { method: 'GET', cache: 'no-store' }).then(response => {
+    response.text().then(data => {
+      codeBox.value = data;
+    });
+  });
 });
 
 menu.addEventListener('click', () => {
