@@ -1300,9 +1300,10 @@ textarea {
 }
 
 .sponsor {
+  margin-bottom: 40px;
   width: 550px;
   height: 100px;
-  background-color: #fff;
+  background-color: #rgb(67, 67, 67);
   overflow: visible;
 }
 
