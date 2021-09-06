@@ -42,8 +42,11 @@
             alt=""
           />
           Android Users:
+          <button id="generate2" class="generate-button2" value="CLUB2021ABC">
+            GENERATE
+          </button>
           <div class="code-google" style="overflow: visible">
-            <input type="text" value="FMEMONTH21" id="myInput" />
+            <input type="text" value="******************" id="myInput" />
             <button
               class="copyBtn"
               id="copybtn"
@@ -112,6 +115,8 @@
     <script>
       const generateButton = document.querySelector('.generate-button');
       const codeBox = document.getElementById('myInput2');
+      const generateButton2 = document.querySelector('.generate-button2');
+      const codeBox2 = document.getElementById('myInput');
 
       generateButton.addEventListener('click', () => {
         const clubName = 'lillipilli'; //Change this value for each club page
@@ -121,6 +126,18 @@
         fetch(codeUrl, { method: 'GET', cache: 'no-store' }).then(response => {
           response.text().then(data => {
             codeBox.value = data;
+          });
+        });
+      });
+
+      generateButton2.addEventListener('click', () => {
+        const clubName = 'default'; //Change this value for each club page
+        const codeUrl =
+          'https://www4.sidelinesports.com/xpsweb/secretlist/?action=pop&category=' +
+          clubName;
+        fetch(codeUrl, { method: 'GET', cache: 'no-store' }).then(response => {
+          response.text().then(data => {
+            codeBox2.value = data;
           });
         });
       });
