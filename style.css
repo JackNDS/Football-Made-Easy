@@ -1509,6 +1509,7 @@ textarea {
   padding: 10px;
   background-color: #000;
   border-radius: 10px;
+  text-align: center;
   transition: transform 0.5s;
 }
 
