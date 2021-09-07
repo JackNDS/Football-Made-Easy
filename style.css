@@ -1301,7 +1301,7 @@ textarea {
 }
 
 .sponsor {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
   width: 450px;
   height: 100px;
   background-color: #rgb(67, 67, 67);
@@ -2788,7 +2788,7 @@ textarea {
   .sponsor {
     width: 300px;
     height: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   .club-google img {
