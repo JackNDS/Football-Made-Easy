@@ -1357,6 +1357,7 @@ textarea {
   align-items: center;
   text-align: center;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .code-google button {
@@ -1397,6 +1398,7 @@ textarea {
   align-items: center;
   text-align: center;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .code-apple button {
