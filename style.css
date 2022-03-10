@@ -590,7 +590,7 @@ button {
 .section-4 {
   width: 100%;
   height: 100%;
-  padding: 50px 180px;
+  padding: 50px 140px;
   display: flex;
   overflow: hidden;
   justify-content: space-evenly;
@@ -769,16 +769,17 @@ button {
 .club-container {
   width: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 60px;
+  grid-gap: 50px 20px;
   overflow: visible;
 }
 
 .club {
-  padding: 5px;
+  padding: 15px;
   transition: transform 0.5s;
+  overflow: visible;
 }
 
 .club:hover {
