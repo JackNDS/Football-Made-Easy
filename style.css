@@ -1556,6 +1556,20 @@ textarea {
   color: #e7f999;
 }
 
+.android-note {
+  font-size: 18px;
+  max-width: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.android-note a {
+  color: yellow;
+}
+
+.android-note-link {
+  font-size: 22px;
+}
 /* Media Queries */
 
 @media (max-width: 1300px) {
