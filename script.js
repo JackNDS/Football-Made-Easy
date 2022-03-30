@@ -24,13 +24,6 @@ var counter = 1;
 const leftClick = document.querySelector('.left-arrow');
 const rightClick = document.querySelector('.right-arrow');
 
-setInterval(function() {
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if (counter > 4) {
-    counter = 1;
-  }
-}, 6000);
 
 leftClick.addEventListener('click', () => {
   document.getElementById('radio' + counter).checked = true;
