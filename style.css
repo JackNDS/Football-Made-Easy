@@ -1273,6 +1273,10 @@ textarea {
   overflow: visible;
 }
 
+.terms-footer.space {
+  margin-top: 10px;
+}
+
 .terms-footer a {
   color: #06d1f5;
   font-size: 15px;
@@ -1305,6 +1309,13 @@ textarea {
   align-items: center;
   overflow: visible;
   background: linear-gradient(to right, #1a2020, rgb(67, 67, 67));
+}
+
+.club-section.cancellation {
+  padding-top: 60px;
+}
+.club-base.cancellation {
+  padding-top: 60px;
 }
 
 .club-header {
