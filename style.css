@@ -1261,6 +1261,9 @@ textarea {
   height: auto;
   font-size: 14px;
 }
+.cancel-link {
+  color: yellow;
+}
 
 .terms-footer {
   display: flex;
